@@ -78,13 +78,14 @@ table {
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
+
+/* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #333;
-        color: #fff; 
+        background-color: #333; /* Dark gray background */
+        color: #fff; /* Light text for readability */
     }
 }
-/* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
